@@ -3,7 +3,7 @@ from selenium.webdriver.firefox.options import Options
 import time
 
 options = Options()
-options.headless = True
+options.headless = False
 
 # Change the URL to your web app (localhost or your deployed link)
 url = 'http://localhost:3000'
