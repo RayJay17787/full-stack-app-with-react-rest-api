@@ -6,11 +6,11 @@ services:
     environment:
       - NODE_ENV=production
 
-  client:
+    client:
     build: ./client
     ports:
       - "3000:80"
     environment:
-      - REACT_APP_API_URL=http://api:5000
+      - REACT_APP_API_URL=http://api:5000/api
     depends_on:
       - api
