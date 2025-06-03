@@ -48,3 +48,5 @@ To initialise the database with sample data.
 ### `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view the site in the browser.
+
+### Just for checking the pipeline.
