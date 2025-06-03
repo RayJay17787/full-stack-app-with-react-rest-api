@@ -9,10 +9,10 @@ driver = webdriver.Firefox()  # Visible browser
 
 try:
     driver.get("http://localhost:3000")  # Change to deployed URL if needed
-    time.sleep(2)
+    time.sleep(5)
 
     # --- You will add sign up, course creation, etc. steps here ---
 
 finally:
-    time.sleep(2)
+    time.sleep(5)
     driver.quit()
