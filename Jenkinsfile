@@ -9,7 +9,7 @@ node {
         bat '.\\venv\\Scripts\\activate && pip install selenium'
     }
 
-    stage('Run Headless Selenium Test') {
+    stage('Run Selenium Test') {
         // Run the script
         bat '.\\venv\\Scripts\\activate && python headless_test.py'
     }
